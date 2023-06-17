@@ -66,12 +66,15 @@ ul li:hover .first{
 .footer_li1{
     border: none; 
     display: inline;
+    width: 60%;
 }
 
 .footer_li2{
     color: red;
     border: none;
     width: 100px;
+    position: fixed;
+    cursor: pointer;
 }
 #cixis{
     color: red;
@@ -79,8 +82,13 @@ ul li:hover .first{
 a{
     color: black;
 }
+svg{
+position: fixed;
+margin-left: 30px;
+margin-top: 5px;
+color: rgb(119, 119, 173);
 
-
+}
 
 @media (max-width:1040px) {
     .sidebar {
