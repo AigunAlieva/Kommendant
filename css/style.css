@@ -99,9 +99,10 @@ color: rgb(119, 119, 173);
     background-color: rgb(230, 214, 191);
 }
 header{
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: 10px;
     cursor: pointer;
+    font-size: 12px;
 }
 .sidebar header{
     font-size: large;
@@ -158,6 +159,9 @@ header{
     #cixis{
         color: red;
     }
-    
-    
+    svg{
+        position: fixed;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
 }
