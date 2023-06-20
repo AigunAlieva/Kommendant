@@ -1,0 +1,124 @@
+body{
+    background-color: #EBEBEB;
+}
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+}
+svg{
+    position: fixed;
+color: rgb(119, 119, 173);
+background: #5367E7;
+border-radius: 4.30355px;
+left: 3.17%;
+right: 95.63%;
+top: 2.5%;
+bottom: 94.71%
+}
+header{
+position: absolute;
+cursor: pointer;
+width: 128px;
+height: 21px;
+left: 104.6px;
+top: 31.54px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 17.5728px;
+line-height: 21px;
+text-align: center;
+color: #5367E7;
+}
+
+.sidebar{
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    background: #FFFFFF;
+    transition: all .5s ease;
+    box-sizing: border-box;
+}
+.sidebar header{
+    font-size: larger;
+    color: #5367E7;
+    font-weight: bold;
+    margin-left: 70px;
+}
+ul .first{
+    border: 1px solid #DADADA;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-left: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 22px;
+    gap: 9px;
+    width: 230px;
+    height: 50px;
+    left: 51px;
+    top: 108px; 
+}
+.sidebar ul .first{
+    display: block;
+    line-height: 50px;
+    font-size: 20px;
+    color: black;
+    padding-left: 40px;
+    cursor: pointer;
+}
+.first:hover{
+    padding: 0;
+    background-color: rgb(119, 119, 173);
+    border-radius: 12px;
+    padding-left: 40px;
+    width: 83%;
+    border: none
+}
+.sidebar ul .first i{
+    margin-right: 16px;
+}
+.first{
+    width: 152px;
+    height: 24px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+
+.destek{
+    position: fixed;
+    display: block;
+    border: none;
+    margin-top: 250px;
+    margin-left: 55px;
+    width: 60px;
+}
+.footer_li1 .footer_li2{
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 13px 22px;
+gap: 9px;
+position: absolute;
+width: 144px;
+height: 50px;
+margin-left: 52px;
+margin-top: 929px;
+background: #FFFFFF;
+border-radius: 12px;
+}
+ul .first{
+    margin-top: 20px;
+}
