@@ -61,7 +61,7 @@ const User = () => {
           </Link>
         </div>
         <div className="minisidebar3">
-            <RxExit className="icons"/>
+            <RxExit className="icons" color="red" />
           <Link to="/">
             <h2 className="last">Çıxış</h2>
           </Link>
